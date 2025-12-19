@@ -1,12 +1,13 @@
 ## Suicide Risk Analysis Using Economic Indicators & Google Trends
 
 ### Objective
-Analyze whether economic indicators and online search behavior can explain and predict trends in U.S. suicide mortality.
+To analyze whether U.S. economic indicators and online search behavior
+can explain and predict trends in suicide mortality between 2018–2023.
 
 ### Data Sources
-- CDC suicide mortality data (2018–2023)
+- CDC suicide mortality data
 - Google Trends search interest data
-- U.S. economic indicators (unemployment, CPI, etc.)
+- U.S. economic indicators (unemployment rate, CPI, etc.)
 
 ### Methods
 - Data cleaning and feature engineering
@@ -16,9 +17,10 @@ Analyze whether economic indicators and online search behavior can explain and p
 - Feature importance and interpretability analysis
 
 ### Key Findings
-- Models explained ~75% of variance in suicide counts
+- Models explained approximately 75% of variance in suicide counts
 - Economic indicators showed stronger predictive power than search trends
-- Digital behavioral signals added context but had ethical and methodological limitations
+- Google Trends variables added contextual signals but had methodological
+  and ethical limitations
 
 ### Tools
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
